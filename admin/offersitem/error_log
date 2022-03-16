@@ -1,0 +1,4 @@
+[09-May-2018 15:10:01 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/moslabazaar/public_html/admin/offersitem/offersitem.php:1) in /home/moslabazaar/public_html/admin/offersitem/offersitem.php on line 14
+[09-May-2018 15:11:18 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/moslabazaar/public_html/admin/offersitem/offersitem.php:1) in /home/moslabazaar/public_html/admin/offersitem/offersitem.php on line 9
+[19-May-2018 07:56:40 UTC] PHP Warning:  move_uploaded_file(upload/Almond (kath badam).png): failed to open stream: No such file or directory in /home/moslabazaar/public_html/admin/offersitem/insert.php on line 64
+[19-May-2018 07:56:40 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpUzLZ6w' to 'upload/Almond (kath badam).png' in /home/moslabazaar/public_html/admin/offersitem/insert.php on line 64

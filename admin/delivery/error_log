@@ -1,0 +1,30 @@
+[16-May-2018 21:07:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/moslabazaar/public_html/admin/delivery/db.php:5
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/delivery/db.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/moslabazaar/public_html/admin/delivery/fetch.php(2): include('/home/moslabaza...')
+#2 {main}
+  thrown in /home/moslabazaar/public_html/admin/delivery/db.php on line 5
+[16-May-2018 21:07:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/moslabazaar/public_html/admin/delivery/db.php:5
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/delivery/db.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/moslabazaar/public_html/admin/delivery/fetch.php(2): include('/home/moslabaza...')
+#2 {main}
+  thrown in /home/moslabazaar/public_html/admin/delivery/db.php on line 5
+[18-May-2018 11:15:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/moslabazaar/public_html/admin/delivery/db.php:5
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/delivery/db.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/moslabazaar/public_html/admin/delivery/fetch.php(2): include('/home/moslabaza...')
+#2 {main}
+  thrown in /home/moslabazaar/public_html/admin/delivery/db.php on line 5
+[18-May-2018 11:50:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/moslabazaar/public_html/admin/delivery/db.php:5
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/delivery/db.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/moslabazaar/public_html/admin/delivery/fetch.php(2): include('/home/moslabaza...')
+#2 {main}
+  thrown in /home/moslabazaar/public_html/admin/delivery/db.php on line 5
+[18-May-2018 11:52:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/moslabazaar/public_html/admin/delivery/db.php:5
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/delivery/db.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/moslabazaar/public_html/admin/delivery/fetch.php(2): include('/home/moslabaza...')
+#2 {main}
+  thrown in /home/moslabazaar/public_html/admin/delivery/db.php on line 5

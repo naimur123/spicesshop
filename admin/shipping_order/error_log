@@ -1,0 +1,164 @@
+[12-May-2018 19:46:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/totalbazarbd/public_html/admin/shipping_order/details.php:33
+Stack trace:
+#0 /home/totalbazarbd/public_html/admin/shipping_order/details.php(121): myPDF->customerviewAddress(Object(PDO))
+#1 {main}
+  thrown in /home/totalbazarbd/public_html/admin/shipping_order/details.php on line 33
+[16-May-2018 21:07:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moslabazaar_moshlabazar.delivery_man' doesn't exist in /home/moslabazaar/public_html/admin/shipping_order/shippingorders.php:125
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/shipping_order/shippingorders.php(125): PDOStatement->execute()
+#1 {main}
+  thrown in /home/moslabazaar/public_html/admin/shipping_order/shippingorders.php on line 125
+[18-May-2018 10:59:23 UTC] PHP Warning:  getimagesize(logo.jpg): failed to open stream: No such file or directory in /home/moslabazaar/public_html/admin/shipping_order/fpdf.php on line 1240
+[18-May-2018 10:59:23 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: logo.jpg in /home/moslabazaar/public_html/admin/shipping_order/fpdf.php:271
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/shipping_order/fpdf.php(1242): FPDF->Error('Missing or inco...')
+#1 /home/moslabazaar/public_html/admin/shipping_order/fpdf.php(885): FPDF->_parsejpg('logo.jpg')
+#2 /home/moslabazaar/public_html/admin/shipping_order/print.php(14): FPDF->Image('logo.jpg', 10, 6)
+#3 /home/moslabazaar/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#4 /home/moslabazaar/public_html/admin/shipping_order/print.php(122): FPDF->AddPage('', 'A4', 0)
+#5 {main}
+  thrown in /home/moslabazaar/public_html/admin/shipping_order/fpdf.php on line 271
+[18-May-2018 11:01:03 UTC] PHP Warning:  getimagesize(logo.jpg): failed to open stream: No such file or directory in /home/moslabazaar/public_html/admin/shipping_order/fpdf.php on line 1240
+[18-May-2018 11:01:03 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: logo.jpg in /home/moslabazaar/public_html/admin/shipping_order/fpdf.php:271
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/shipping_order/fpdf.php(1242): FPDF->Error('Missing or inco...')
+#1 /home/moslabazaar/public_html/admin/shipping_order/fpdf.php(885): FPDF->_parsejpg('logo.jpg')
+#2 /home/moslabazaar/public_html/admin/shipping_order/print.php(14): FPDF->Image('logo.jpg', 10, 6)
+#3 /home/moslabazaar/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#4 /home/moslabazaar/public_html/admin/shipping_order/print.php(122): FPDF->AddPage('', 'A4', 0)
+#5 {main}
+  thrown in /home/moslabazaar/public_html/admin/shipping_order/fpdf.php on line 271
+[18-May-2018 11:01:24 UTC] PHP Warning:  getimagesize(logo.jpg): failed to open stream: No such file or directory in /home/moslabazaar/public_html/admin/shipping_order/fpdf.php on line 1240
+[18-May-2018 11:01:24 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: logo.jpg in /home/moslabazaar/public_html/admin/shipping_order/fpdf.php:271
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/shipping_order/fpdf.php(1242): FPDF->Error('Missing or inco...')
+#1 /home/moslabazaar/public_html/admin/shipping_order/fpdf.php(885): FPDF->_parsejpg('logo.jpg')
+#2 /home/moslabazaar/public_html/admin/shipping_order/details.php(14): FPDF->Image('logo.jpg', 10, 6)
+#3 /home/moslabazaar/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#4 /home/moslabazaar/public_html/admin/shipping_order/details.php(120): FPDF->AddPage('', 'A4', 0)
+#5 {main}
+  thrown in /home/moslabazaar/public_html/admin/shipping_order/fpdf.php on line 271
+[05-Mar-2019 12:04:06 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Image file has no extension and no type was specified: 300 in /home/spicesshop/public_html/admin/shipping_order/fpdf.php:271
+Stack trace:
+#0 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(876): FPDF->Error('Image file has ...')
+#1 /home/spicesshop/public_html/admin/shipping_order/print.php(16): FPDF->Image(300, 5, 'logo.png')
+#2 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#3 /home/spicesshop/public_html/admin/shipping_order/print.php(135): FPDF->AddPage('', 'A4', 0)
+#4 {main}
+  thrown in /home/spicesshop/public_html/admin/shipping_order/fpdf.php on line 271
+[05-Mar-2019 12:05:15 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Image file name is empty in /home/spicesshop/public_html/admin/shipping_order/fpdf.php:271
+Stack trace:
+#0 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(868): FPDF->Error('Image file name...')
+#1 /home/spicesshop/public_html/admin/shipping_order/print.php(16): FPDF->Image(0, 5, 'logo.png', 0, 0, 'R')
+#2 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#3 /home/spicesshop/public_html/admin/shipping_order/print.php(135): FPDF->AddPage('', 'A4', 0)
+#4 {main}
+  thrown in /home/spicesshop/public_html/admin/shipping_order/fpdf.php on line 271
+[05-Mar-2019 12:05:48 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Image file name is empty in /home/spicesshop/public_html/admin/shipping_order/fpdf.php:271
+Stack trace:
+#0 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(868): FPDF->Error('Image file name...')
+#1 /home/spicesshop/public_html/admin/shipping_order/print.php(16): FPDF->Image(0, 5, 'logo.png', 0, 0, 'R')
+#2 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#3 /home/spicesshop/public_html/admin/shipping_order/print.php(135): FPDF->AddPage('', 'A4', 0)
+#4 {main}
+  thrown in /home/spicesshop/public_html/admin/shipping_order/fpdf.php on line 271
+[05-Mar-2019 12:06:05 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Image file name is empty in /home/spicesshop/public_html/admin/shipping_order/fpdf.php:271
+Stack trace:
+#0 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(868): FPDF->Error('Image file name...')
+#1 /home/spicesshop/public_html/admin/shipping_order/print.php(16): FPDF->Image(0, 5, 'logo.png', 0, 0, 'R')
+#2 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#3 /home/spicesshop/public_html/admin/shipping_order/print.php(135): FPDF->AddPage('', 'A4', 0)
+#4 {main}
+  thrown in /home/spicesshop/public_html/admin/shipping_order/fpdf.php on line 271
+[05-Mar-2019 12:06:16 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Image file name is empty in /home/spicesshop/public_html/admin/shipping_order/fpdf.php:271
+Stack trace:
+#0 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(868): FPDF->Error('Image file name...')
+#1 /home/spicesshop/public_html/admin/shipping_order/print.php(16): FPDF->Image(0, 5, 'logo.png', 0, 0, 'R')
+#2 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#3 /home/spicesshop/public_html/admin/shipping_order/print.php(135): FPDF->AddPage('', 'A4', 0)
+#4 {main}
+  thrown in /home/spicesshop/public_html/admin/shipping_order/fpdf.php on line 271
+[12-Mar-2019 10:15:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/spicesshop/public_html/admin/shipping_order/details.php:18
+Stack trace:
+#0 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#1 /home/spicesshop/public_html/admin/shipping_order/details.php(168): FPDF->AddPage('', 'A4', 0)
+#2 {main}
+  thrown in /home/spicesshop/public_html/admin/shipping_order/details.php on line 18
+[12-Mar-2019 10:16:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/spicesshop/public_html/admin/shipping_order/details.php:18
+Stack trace:
+#0 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#1 /home/spicesshop/public_html/admin/shipping_order/details.php(168): FPDF->AddPage('', 'A4', 0)
+#2 {main}
+  thrown in /home/spicesshop/public_html/admin/shipping_order/details.php on line 18
+[12-Mar-2019 10:42:28 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Image file has no extension and no type was specified: 150 in /home/spicesshop/public_html/admin/shipping_order/fpdf.php:271
+Stack trace:
+#0 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(876): FPDF->Error('Image file has ...')
+#1 /home/spicesshop/public_html/admin/shipping_order/details.php(60): FPDF->Image(150, 0, 'logo.png', 0, 6)
+#2 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#3 /home/spicesshop/public_html/admin/shipping_order/details.php(181): FPDF->AddPage('', 'A4', 0)
+#4 {main}
+  thrown in /home/spicesshop/public_html/admin/shipping_order/fpdf.php on line 271
+[12-Mar-2019 10:53:26 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Image file has no extension and no type was specified: 150 in /home/spicesshop/public_html/admin/shipping_order/fpdf.php:271
+Stack trace:
+#0 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(876): FPDF->Error('Image file has ...')
+#1 /home/spicesshop/public_html/admin/shipping_order/details.php(60): FPDF->Image(150, 'logo.png', 0, 6)
+#2 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#3 /home/spicesshop/public_html/admin/shipping_order/details.php(181): FPDF->AddPage('', 'A4', 0)
+#4 {main}
+  thrown in /home/spicesshop/public_html/admin/shipping_order/fpdf.php on line 271
+[12-Mar-2019 10:53:41 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Image file has no extension and no type was specified: 150 in /home/spicesshop/public_html/admin/shipping_order/fpdf.php:271
+Stack trace:
+#0 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(876): FPDF->Error('Image file has ...')
+#1 /home/spicesshop/public_html/admin/shipping_order/details.php(60): FPDF->Image(150, 'logo.png', 0, 6)
+#2 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#3 /home/spicesshop/public_html/admin/shipping_order/details.php(181): FPDF->AddPage('', 'A4', 0)
+#4 {main}
+  thrown in /home/spicesshop/public_html/admin/shipping_order/fpdf.php on line 271
+[12-Mar-2019 10:54:00 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Image file has no extension and no type was specified: 150 in /home/spicesshop/public_html/admin/shipping_order/fpdf.php:271
+Stack trace:
+#0 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(876): FPDF->Error('Image file has ...')
+#1 /home/spicesshop/public_html/admin/shipping_order/details.php(60): FPDF->Image(150, 'logo.png', 0, 6)
+#2 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#3 /home/spicesshop/public_html/admin/shipping_order/details.php(181): FPDF->AddPage('', 'A4', 0)
+#4 {main}
+  thrown in /home/spicesshop/public_html/admin/shipping_order/fpdf.php on line 271
+[12-Mar-2019 10:54:10 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Image file has no extension and no type was specified: 150 in /home/spicesshop/public_html/admin/shipping_order/fpdf.php:271
+Stack trace:
+#0 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(876): FPDF->Error('Image file has ...')
+#1 /home/spicesshop/public_html/admin/shipping_order/details.php(60): FPDF->Image(150, 'logo.png', 0, 6)
+#2 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#3 /home/spicesshop/public_html/admin/shipping_order/details.php(181): FPDF->AddPage('', 'A4', 0)
+#4 {main}
+  thrown in /home/spicesshop/public_html/admin/shipping_order/fpdf.php on line 271
+[12-Mar-2019 10:54:14 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Image file has no extension and no type was specified: 150 in /home/spicesshop/public_html/admin/shipping_order/fpdf.php:271
+Stack trace:
+#0 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(876): FPDF->Error('Image file has ...')
+#1 /home/spicesshop/public_html/admin/shipping_order/details.php(60): FPDF->Image(150, 'logo.png', 0, 6)
+#2 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#3 /home/spicesshop/public_html/admin/shipping_order/details.php(181): FPDF->AddPage('', 'A4', 0)
+#4 {main}
+  thrown in /home/spicesshop/public_html/admin/shipping_order/fpdf.php on line 271
+[12-Mar-2019 10:54:41 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Image file has no extension and no type was specified: 150 in /home/spicesshop/public_html/admin/shipping_order/fpdf.php:271
+Stack trace:
+#0 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(876): FPDF->Error('Image file has ...')
+#1 /home/spicesshop/public_html/admin/shipping_order/details.php(60): FPDF->Image(150, 'logo.png', 0, 6)
+#2 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#3 /home/spicesshop/public_html/admin/shipping_order/details.php(181): FPDF->AddPage('', 'A4', 0)
+#4 {main}
+  thrown in /home/spicesshop/public_html/admin/shipping_order/fpdf.php on line 271
+[12-Mar-2019 11:24:25 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Image file has no extension and no type was specified: 20 in /home/spicesshop/public_html/admin/shipping_order/fpdf.php:271
+Stack trace:
+#0 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(876): FPDF->Error('Image file has ...')
+#1 /home/spicesshop/public_html/admin/shipping_order/details.php(26): FPDF->Image(20, 'logo.png', 0, 0, 'R')
+#2 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#3 /home/spicesshop/public_html/admin/shipping_order/details.php(163): FPDF->AddPage('', 'A4', 0)
+#4 {main}
+  thrown in /home/spicesshop/public_html/admin/shipping_order/fpdf.php on line 271
+[12-Mar-2019 11:24:29 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Image file has no extension and no type was specified: 20 in /home/spicesshop/public_html/admin/shipping_order/fpdf.php:271
+Stack trace:
+#0 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(876): FPDF->Error('Image file has ...')
+#1 /home/spicesshop/public_html/admin/shipping_order/details.php(26): FPDF->Image(20, 'logo.png', 0, 0, 'R')
+#2 /home/spicesshop/public_html/admin/shipping_order/fpdf.php(334): myPDF->header()
+#3 /home/spicesshop/public_html/admin/shipping_order/details.php(163): FPDF->AddPage('', 'A4', 0)
+#4 {main}
+  thrown in /home/spicesshop/public_html/admin/shipping_order/fpdf.php on line 271

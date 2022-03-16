@@ -1,0 +1,95 @@
+[12-May-2018 17:16:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/totalbazarbd/public_html/admin/orders/print.php:33
+Stack trace:
+#0 /home/totalbazarbd/public_html/admin/orders/print.php(121): myPDF->customerviewAddress(Object(PDO))
+#1 {main}
+  thrown in /home/totalbazarbd/public_html/admin/orders/print.php on line 33
+[12-May-2018 17:19:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/totalbazarbd/public_html/admin/orders/details.php:33
+Stack trace:
+#0 /home/totalbazarbd/public_html/admin/orders/details.php(121): myPDF->customerviewAddress(Object(PDO))
+#1 {main}
+  thrown in /home/totalbazarbd/public_html/admin/orders/details.php on line 33
+[16-May-2018 21:03:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moslabazaar_moshlabazar.delivery_man' doesn't exist in /home/moslabazaar/public_html/admin/orders/orders.php:125
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/orders/orders.php(125): PDOStatement->execute()
+#1 {main}
+  thrown in /home/moslabazaar/public_html/admin/orders/orders.php on line 125
+[16-May-2018 21:07:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moslabazaar_moshlabazar.delivery_man' doesn't exist in /home/moslabazaar/public_html/admin/orders/orders.php:125
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/orders/orders.php(125): PDOStatement->execute()
+#1 {main}
+  thrown in /home/moslabazaar/public_html/admin/orders/orders.php on line 125
+[16-May-2018 21:07:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moslabazaar_moshlabazar.delivery_man' doesn't exist in /home/moslabazaar/public_html/admin/orders/orders.php:125
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/orders/orders.php(125): PDOStatement->execute()
+#1 {main}
+  thrown in /home/moslabazaar/public_html/admin/orders/orders.php on line 125
+[18-May-2018 11:15:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/moslabazaar/public_html/admin/orders/details.php:33
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/orders/details.php(121): myPDF->customerviewAddress(Object(PDO))
+#1 {main}
+  thrown in /home/moslabazaar/public_html/admin/orders/details.php on line 33
+[18-May-2018 11:15:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/moslabazaar/public_html/admin/orders/details.php:33
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/orders/details.php(121): myPDF->customerviewAddress(Object(PDO))
+#1 {main}
+  thrown in /home/moslabazaar/public_html/admin/orders/details.php on line 33
+[18-May-2018 11:15:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/moslabazaar/public_html/admin/orders/details.php:33
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/orders/details.php(121): myPDF->customerviewAddress(Object(PDO))
+#1 {main}
+  thrown in /home/moslabazaar/public_html/admin/orders/details.php on line 33
+[18-May-2018 11:15:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/moslabazaar/public_html/admin/orders/details.php:33
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/orders/details.php(121): myPDF->customerviewAddress(Object(PDO))
+#1 {main}
+  thrown in /home/moslabazaar/public_html/admin/orders/details.php on line 33
+[18-May-2018 11:15:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/moslabazaar/public_html/admin/orders/details.php:33
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/orders/details.php(121): myPDF->customerviewAddress(Object(PDO))
+#1 {main}
+  thrown in /home/moslabazaar/public_html/admin/orders/details.php on line 33
+[18-May-2018 11:16:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/moslabazaar/public_html/admin/orders/details.php:33
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/orders/details.php(121): myPDF->customerviewAddress(Object(PDO))
+#1 {main}
+  thrown in /home/moslabazaar/public_html/admin/orders/details.php on line 33
+[18-May-2018 11:19:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/moslabazaar/public_html/admin/orders/details.php:33
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/orders/details.php(121): myPDF->customerviewAddress(Object(PDO))
+#1 {main}
+  thrown in /home/moslabazaar/public_html/admin/orders/details.php on line 33
+[18-May-2018 11:21:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/moslabazaar/public_html/admin/orders/details.php:33
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/orders/details.php(121): myPDF->customerviewAddress(Object(PDO))
+#1 {main}
+  thrown in /home/moslabazaar/public_html/admin/orders/details.php on line 33
+[18-May-2018 11:21:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/moslabazaar/public_html/admin/orders/details.php:33
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/orders/details.php(121): myPDF->customerviewAddress(Object(PDO))
+#1 {main}
+  thrown in /home/moslabazaar/public_html/admin/orders/details.php on line 33
+[18-May-2018 11:24:01 UTC] PHP Warning:  fopen(logo.png): failed to open stream: No such file or directory in /home/moslabazaar/public_html/admin/orders/fpdf.php on line 1259
+[18-May-2018 11:24:01 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: logo.png in /home/moslabazaar/public_html/admin/orders/fpdf.php:271
+Stack trace:
+#0 /home/moslabazaar/public_html/admin/orders/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /home/moslabazaar/public_html/admin/orders/fpdf.php(885): FPDF->_parsepng('logo.png')
+#2 /home/moslabazaar/public_html/admin/orders/details.php(14): FPDF->Image('logo.png', 10, 6)
+#3 /home/moslabazaar/public_html/admin/orders/fpdf.php(334): myPDF->header()
+#4 /home/moslabazaar/public_html/admin/orders/details.php(120): FPDF->AddPage('', 'A4', 0)
+#5 {main}
+  thrown in /home/moslabazaar/public_html/admin/orders/fpdf.php on line 271
+[29-Aug-2018 18:31:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'moslabazaar_moshlabazarwebsite'@'localhost' (using password: YES) in /home/spicesshop/public_html/admin/orders/print.php:10
+Stack trace:
+#0 /home/spicesshop/public_html/admin/orders/print.php(10): PDO->__construct('mysql:host=loca...', 'moslabazaar_mos...', 'Moshla@1010')
+#1 {main}
+  thrown in /home/spicesshop/public_html/admin/orders/print.php on line 10
+[29-Aug-2018 18:31:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'moslabazaar_moshlabazarwebsite'@'localhost' (using password: YES) in /home/spicesshop/public_html/admin/orders/details.php:10
+Stack trace:
+#0 /home/spicesshop/public_html/admin/orders/details.php(10): PDO->__construct('mysql:host=loca...', 'moslabazaar_mos...', 'Moshla@1010')
+#1 {main}
+  thrown in /home/spicesshop/public_html/admin/orders/details.php on line 10
+[30-Aug-2018 15:59:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'moslabazaar_moshlabazarwebsite'@'localhost' (using password: YES) in /home/spicesshop/public_html/admin/orders/print.php:10
+Stack trace:
+#0 /home/spicesshop/public_html/admin/orders/print.php(10): PDO->__construct('mysql:host=loca...', 'moslabazaar_mos...', 'Moshla@1010')
+#1 {main}
+  thrown in /home/spicesshop/public_html/admin/orders/print.php on line 10
